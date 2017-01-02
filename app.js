@@ -3,6 +3,7 @@
 'use strict';
     angular.module('LunchCheck',[])
     .controller('LunchCheckController', myController);
+    myController.$inject=['$scope'];
     function myController($scope)
     {
            $scope.items = "";
