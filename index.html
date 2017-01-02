@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html ng-app="LunchCheck">
+    <head>
+        <script src = "angular.min.js"> </script>
+        <script src = "app.js"> </script>
+    </head>
+    <body>
+        <h1> Lunch Check: </h1>
+        <div ng-controller="LunchCheckController">
+            <h2> Enter the lunch items: </h2>
+            <input  type= "text" ng-model="items">
+            <button ng-click="event()"> Check if too much </button>
+            <br>
+            <h3> You should enjoy or it is too much? : {{message}} </h3>
+        
+
+            
+
+        </div>
+        
+    </body>
+</html>
